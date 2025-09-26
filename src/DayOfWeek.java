@@ -21,7 +21,9 @@ public class DayOfWeek{
                     break;
                 case 6:System.out.println("Friday");
                     break;
-                default:System.out.println("Saturday");
+                case 7:System.out.println("Saturday");
+                    break;
+                default:System.out.println("The input is invalid");
             }
         }
     }
